@@ -1,7 +1,9 @@
+import { ProfileCard } from "../../molecules/ProfileCard/ProfileCard";
+
 export const HomePage = () => {
     return (
         <div>
-            <h1>Home</h1>
+           <ProfileCard name="John Doe" imageUrl="https://randomuser.me/api/portraits/men/1.jpg" bio="I am a software developer" />
         </div>
     );
 };
