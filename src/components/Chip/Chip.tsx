@@ -6,10 +6,14 @@ interface ChipProps {
     backgroundColor?: string
 }
 
-export const Chip = ({ label, color = "white", backgroundColor = "#007bff" }: ChipProps) => {
-    return (
-        <StyledChip color={color} backgroundColor={backgroundColor}>
-            {label}
-        </StyledChip>
-    )
-}
+export const Chip = ({
+  label,
+  color = "white",
+  backgroundColor = "purple",
+}: ChipProps) => {
+  return (
+    <StyledChip color={color} backgroundColor={backgroundColor}>
+      {label}
+    </StyledChip>
+  );
+};
